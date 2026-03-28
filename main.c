@@ -44,6 +44,21 @@
 #include "oledDriver/oledC_shapes.h"
 #include "Accel_i2c.h"
 
+
+make -f nbproject/Makefile-default.mk SUBPROJECTS= .build-conf
+make[1]: Entering directory 'C:/Users/youse/Desktop/Software_Engineering/Microship/LabC7_I2C_Accel.X'
+make  -f nbproject/Makefile-default.mk dist/default/debug/LabC7_I2C_Accel.X.debug.elf
+make[2]: *** No rule to make target 'Accel_i2c.c', needed by 'build/default/debug/Accel_i2c.o'.  Stop.
+make[1]: *** [.build-conf] Error 2
+make: *** [.build-impl] Error 2
+make[2]: Entering directory 'C:/Users/youse/Desktop/Software_Engineering/Microship/LabC7_I2C_Accel.X'
+make[2]: Leaving directory 'C:/Users/youse/Desktop/Software_Engineering/Microship/LabC7_I2C_Accel.X'
+nbproject/Makefile-default.mk:85: recipe for target '.build-conf' failed
+make[1]: Leaving directory 'C:/Users/youse/Desktop/Software_Engineering/Microship/LabC7_I2C_Accel.X'
+nbproject/Makefile-impl.mk:39: recipe for target '.build-impl' failed
+
+BUILD FAILED (exit value 2, total time: 105ms)
+
 /* ═══════════════════════════════════════════════════════════════════════════
  * HARDWARE PIN MACROS
  * ═══════════════════════════════════════════════════════════════════════════ */
